@@ -54,4 +54,11 @@ public class ProductController {
 		Double totalPrice = productService.reduceStocks(orderRequestDto);
 		return ResponseEntity.ok(totalPrice);
 	}
+
+	@PutMapping("/restocks")
+	public ResponseEntity<String> restocks(@RequestBody OrderRequestDto orderRequestDto){
+
+		boolean success = productService.restocks(orderRequestDto);
+		return success ? ResponseEntity.ok("Successfully discarded from Orders!") : ResponseEntity.ok("Not success");
+	}
 }

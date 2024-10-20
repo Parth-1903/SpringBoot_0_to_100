@@ -19,8 +19,8 @@ public class OrderController {
 	private final OrdersService ordersService;
 
 	@GetMapping("/helloOrders")
-	public String helloOrders(){
-		return "Hello from Orders service";
+	public String helloOrders(@RequestHeader("X-User-Id") Long userId){
+		return "Hello from Orders service, userId: "+userId;
 	}
 
 	@GetMapping
@@ -41,6 +41,12 @@ public class OrderController {
 	public ResponseEntity<OrderRequestDto> createOrder(@RequestBody OrderRequestDto orderRequestDto){
 		OrderRequestDto orderRequestDto1 = ordersService.createOrders(orderRequestDto);
 		return ResponseEntity.ok(orderRequestDto1);
+	}
+
+	@PatchMapping("/cancel-order/{orderId}")
+	public ResponseEntity<Boolean> cancelOrder(@RequestBody OrderRequestDto orderRequestDto,@PathVariable Long orderId){
+		boolean flag = ordersService.cancelOrders(orderRequestDto,orderId);
+		return ResponseEntity.ok(flag);
 	}
 
 }

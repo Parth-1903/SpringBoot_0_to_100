@@ -1,8 +1,11 @@
+jwt:
+  secretKey: leflsdvsvjlefjelsjclkasjflasfjewfsdfsadsvasdv
+
 spring:
   application:
     name: api-gateway
 
-#api gateway config
+  #api gateway config
   cloud:
     gateway:
       routes:
@@ -10,10 +13,13 @@ spring:
           uri: lb://ORDER-SERVICE
           predicates:
             - Path=/api/v1/orders/**
-            #- Method=GET,POST
           filters:
             - StripPrefix=2
-#            - RedirectTo=302, http://codingshuttle.com
+        #            - RedirectTo=302, http://codingshuttle.com
+            - name: LoggingOrderFilter
+            - name: Authentication
+              args:
+                authenticationEnabled: false
         - id: inventory-service
           uri: lb://INVENTORY-SERVICE
           predicates:
@@ -21,6 +27,7 @@ spring:
           filters:
             - StripPrefix=2
             - AddRequestHeader=X-Custom-Header, Anuj
+            - name: Authentication
 eureka:
   client:
     service-url:

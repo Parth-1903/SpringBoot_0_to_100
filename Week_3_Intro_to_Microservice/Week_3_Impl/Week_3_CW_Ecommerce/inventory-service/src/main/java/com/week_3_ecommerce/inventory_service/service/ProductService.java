@@ -59,4 +59,19 @@ public class ProductService {
 		}
 		return totalPrice;
 	}
+
+	@Transactional
+	public boolean restocks(OrderRequestDto orderRequestDto) {
+		for(OrderRequestItemDto orderRequestItemDto: orderRequestDto.getItems()){
+			Long productId = orderRequestItemDto.getProductId();
+			Integer quantity = orderRequestItemDto.getQuantity();
+
+			Product product = productRepository.findById(productId).orElseThrow(() ->
+					new RuntimeException("Product not found with id: "+productId));
+
+			product.setStock(product.getStock() + quantity);
+			productRepository.save(product);
+		}
+		return true;
+	}
 }

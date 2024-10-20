@@ -1,0 +1,52 @@
+https://kafka.apache.org/quickstart
+
+Step 1: Get Kafka
+
+Step 2: Start the Kafka environment
+
+For windows:
+Generate a Cluster UUID:
+
+KAFKA_CLUSTER_ID="$(bin/windows/kafka-storage.bat random-uuid)"
+
+Format Log Directories
+bin/windows/kafka-storage.bat format -t $KAFKA_CLUSTER_ID -c config/kraft/server.properties
+
+Start the Kafka Server
+bin/windows/kafka-server-start.bat config/kraft/server.properties
+
+
+For Mac:
+KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
+
+bin/kafka-storage.sh format -t $KAFKA_CLUSTER_ID -c config/kraft/server.properties
+
+bin/kafka-server-start.sh config/kraft/server.properties
+
+
+
+Step 3: Create a topic to store your events
+
+bin/windows/kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
+
+bin/windows/kafka-topics.bat --describe --topic quickstart-events --bootstrap-server localhost:9092
+
+
+Step 4: Write some events into the topic
+
+bin/windows/kafka-console-producer.bat --topic quickstart-events --bootstrap-server localhost:9092
+
+Step 5: Read the events
+
+bin/windows/kafka-console-consumer.bat --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
+
+
+
+
+
+Now if we need to install GUI
+
+https://ui.docs.kafbat.io/development/building/without-docker
+
+java -Dspring.config.additional-location=application-local.yml --add-opens java.rmi/javax.rmi.ssl=ALL-UNNAMED -jar kafbat-ui-v1.0.0.jar
+

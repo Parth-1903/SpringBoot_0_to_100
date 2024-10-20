@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc7f7006-61ae-41c5-b7b5-b8ac4a9c67ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Week_1_AOP/Week_1_Impl/aopApp" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_1_AOP/Week_1_Impl/aopApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_2_Caching/Week_2_Impl/Week_2_CW/cachingApp" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_2_Caching/Week_2_Impl/Week_2_CW/cachingApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_2_Caching/Week_2_Impl/Week_2_CW_Transaction/cachingApp" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_2_Caching/Week_2_Impl/Week_2_CW_Transaction/cachingApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_BY_Bhaiya/eCommerce" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_BY_Bhaiya/eCommerce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/inventory-service/src/main/java/com/week_3_ecommerce/inventory_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/inventory-service/src/main/java/com/week_3_ecommerce/inventory_service/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/inventory-service/src/main/java/com/week_3_ecommerce/inventory_service/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/inventory-service/src/main/java/com/week_3_ecommerce/inventory_service/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/java/com/week_3_ecommerce/order_service/clients/InventoryOpenFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/java/com/week_3_ecommerce/order_service/clients/InventoryOpenFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/java/com/week_3_ecommerce/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/java/com/week_3_ecommerce/order_service/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/java/com/week_3_ecommerce/order_service/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/java/com/week_3_ecommerce/order_service/service/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Week_3_Intro_to_Microservice/Week_3_Impl/Week_3_CW_Ecommerce/order-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2n1UBJp8wPKTZPW5vbJESSJcCyk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/SpringBoot_Course/SpringBoot_1_To_100/LinkedIn/connections-service&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringBoot_Course\SpringBoot_1_To_100\LinkedIn\user-service\src\main\java\com\linkedin\user_service\exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.api_gateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.api_gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionsServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.connections_service.ConnectionsServiceApplication" />
+      <module name="connections-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.connections_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.discovery_server.DiscoveryServerApplication" />
+      <module name="discovery-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.discovery_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.posts_service.PostsServiceApplication" />
+      <module name="posts-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.posts_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.user_service.UserServiceApplication" />
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.user_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.PostsServiceApplication" />
+        <item itemvalue="Application.ConnectionsServiceApplication" />
+        <item itemvalue="Application.DiscoveryServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc7f7006-61ae-41c5-b7b5-b8ac4a9c67ce" name="Changes" comment="" />
+      <created>1728139941805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728139941805</updated>
+    </task>
+    <servers />
+  </component>
+</project>
